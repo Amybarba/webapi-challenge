@@ -1,10 +1,10 @@
-# Sprint Challenge: Express and Node.js - Projects & Actions
+X # Sprint Challenge: Express and Node.js - Projects & Actions
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Building RESTful Web APIs with Express and Node.js, Server-side Routing, Express Middleware & Deployment and Good Practices. In your challenge for this Sprint, you will demonstrate proficiency by creating an Web API using Node.js and Express.
 
-## Instructions
+X ## Instructions
 
-**Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
+X **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
@@ -23,27 +23,40 @@ In this challenge, create a web API around the following resources: `Projects` a
 ## Self-Study/Essay Questions
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
+- [X] Mention two parts of Express that you learned about this week.
 
-- [ ] Mention two parts of Express that you learned about this week.
+“Express is a web application framework that sits on top of the Node.js web server (http server module). It’s like React, for your backend.” - Lambda TK kit
+	Express Middleware - this allows us to break the objects into smaller pieces which in turn will make 	it easier to debug and customize.
+	Server-Side Routing - this allows us to break the application into smaller pieces which in turn will 		make it easier to debug and customize.
 
-- [ ] Describe Middleware?
+- [X] Describe Middleware?
 
-- [ ] Describe a Resource?
+Used to extend express, express is more of a framework and middleware helps extend the workability of the functions. Logging, authentication are some of the uses. Common dependencies are Morgan, cors, helmet.
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [X] Describe a Resource?
 
-- [ ] How can we partition our application into sub-applications?
+Basically exactly as it sounds. Using URI to connect to the resources will get your information.
+You can have several in one app, they are your endpoints to get or verify information. 
+
+- [X] What can the API return to help clients know if a request was successful?
+
+HTTP status codes will let the client know the nature of how the API returned.
+
+- [X] How can we partition our application into sub-applications?
+
+Using Express Routers. One router to get the users, one to get the products, one to get the clients, etc…
+This makes it easier to troubleshoot. But also can require the ability to get them to work together.
 
 ## Project Setup
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your _Team Lead_ as collaborator on Github.
-- [ ] Clone your forked version of the Repository.
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your _Team Lead_ as collaborator on Github.
+- [X] Clone your forked version of the Repository.
+- [X] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on this Branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
